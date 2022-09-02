@@ -1,0 +1,26 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "Login Using Multi Module"
+include ':app'
+include ':common'
+include ':core'
+include ':core:api'
+include ':core:di'
+include ':model'
+include ':data'
+include ':feature'
+include ':feature:signup'
+include ':feature:signin'
+include ':navigation'

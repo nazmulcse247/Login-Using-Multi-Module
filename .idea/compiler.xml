@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel target="1.7">
+      <module name="Login_Using_Multi_Module.app" target="11" />
+      <module name="Login_Using_Multi_Module.common" target="11" />
+      <module name="Login_Using_Multi_Module.core.api" target="11" />
+      <module name="Login_Using_Multi_Module.core.di" target="11" />
+      <module name="Login_Using_Multi_Module.data" target="11" />
+      <module name="Login_Using_Multi_Module.feature.signin" target="11" />
+      <module name="Login_Using_Multi_Module.feature.signup" target="11" />
+      <module name="Login_Using_Multi_Module.navigation" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
